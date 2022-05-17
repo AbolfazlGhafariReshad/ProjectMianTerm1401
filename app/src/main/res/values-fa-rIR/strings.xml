@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">میان ترم-ابوالفضل غفاری رشاد</string>
     <string name="checkbtn">قوانین را مطالعه و پذیرفته ام.</string>
@@ -32,4 +33,3 @@
     </string-array>
 
 </resources>
-

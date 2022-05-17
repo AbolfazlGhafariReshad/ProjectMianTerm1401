@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/edtext_father"
-        android:layout_width="330dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:gravity="center|right|center_horizontal|center_vertical"
@@ -23,14 +23,14 @@
 
     <EditText
         android:id="@+id/edtext_lname"
-        android:layout_width="330dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:gravity="right|center_horizontal|center_vertical"
         android:inputType="textPersonName"
         android:maxLength="50"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/txtln"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -50,9 +50,9 @@
 
     <EditText
         android:id="@+id/edtext_phone"
-        android:layout_width="330dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="250dp"
         android:ems="10"
         android:gravity="center|left"
         android:inputType="phone"
@@ -66,22 +66,22 @@
 
     <EditText
         android:id="@+id/edtext_name"
-        android:layout_width="330dp"
+        android:layout_width="180dp"
         android:layout_height="40dp"
         android:ems="10"
         android:gravity="center|right|center_horizontal|center_vertical"
         android:inputType="textPersonName"
         android:maxLength="25"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/txtge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/txtmobileview"
-        android:layout_width="330dp"
-        android:layout_height="35dp"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
         android:foregroundGravity="left|bottom"
         android:gravity="center|left|center_vertical|end"
         android:text="@string/txt4"
@@ -91,9 +91,9 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="330dp"
-        android:layout_height="35dp"
+        android:id="@+id/txtge"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
         android:gravity="center|right|center_horizontal|center_vertical"
         android:text="@string/txt2"
         android:textSize="16sp"
@@ -102,9 +102,9 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="330dp"
-        android:layout_height="35dp"
+        android:id="@+id/txtln"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
         android:gravity="center|right|center_horizontal|center_vertical"
         android:text="@string/txt3"
         android:textSize="16sp"
@@ -114,14 +114,12 @@
 
     <RadioGroup
         android:id="@+id/ac_start_rg"
-        android:layout_width="77dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="360dp"
+        android:layout_width="73dp"
+        android:layout_height="96dp"
         android:gravity="right"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/edtext_phone">
 
         <RadioButton
             android:id="@+id/radio_men"
@@ -140,21 +138,10 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="125dp"
-        android:layout_height="36dp"
-        android:gravity="center_horizontal|left|center_vertical"
-        android:text="@string/txt5"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ac_start_rg"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="330dp"
-        android:layout_height="35dp"
+        android:id="@+id/txtph"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
         android:gravity="center|right|center_horizontal|center_vertical"
         android:text="@string/txt1"
         android:textSize="16sp"
@@ -166,85 +153,70 @@
 
     <Spinner
         android:id="@+id/sp_list"
-        android:layout_width="208dp"
+        android:layout_width="231dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="144dp"
+        android:entries="@array/entries"
+        android:gravity="right"
         app:layout_constraintBottom_toTopOf="@+id/ac_start_btn_submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/ac_start_rg"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/chb3"
-        android:layout_width="133dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
         android:text="@string/txt88"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/ac_start_btn_submit"
+        app:layout_constraintEnd_toStartOf="@+id/chb4"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp_list"
+        app:layout_constraintTop_toBottomOf="@+id/chb1"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/chb4"
-        android:layout_width="133dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
         android:text="@string/txt90"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/ac_start_btn_submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp_list"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <CheckBox
-        android:id="@+id/checkBox7"
-        android:layout_width="133dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="40dp"
-        android:text="علاقمند به سرود"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp_list"
-        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
-
-    <CheckBox
-        android:id="@+id/chb2"
-        android:layout_width="133dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/txt89"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp_list"
+        app:layout_constraintTop_toBottomOf="@+id/chb2"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="TouchTargetSizeCheck" />
 
     <CheckBox
         android:id="@+id/chb1"
-        android:layout_width="133dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
         android:text="@string/txt77"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/chb2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sp_list"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="88dp"
-        android:text="@string/txt7"
-        app:layout_constraintBottom_toTopOf="@+id/ac_start_btn_submit"
+    <CheckBox
+        android:id="@+id/chb2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt89"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_list"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/txtsp"
@@ -254,8 +226,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.026"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:visibility="invisible" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

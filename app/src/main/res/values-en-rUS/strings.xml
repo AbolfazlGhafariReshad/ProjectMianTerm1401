@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intermediate-Abolfazl Ghaffari Rashad</string>
+    <string name="checkbtn">I have read and accepted the rules.</string>
+    <string name="txtgh">test test test test test test test test test test test test testtest test test test test test testtest test test test test test testtesttest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test testtest test test test test test test</string>
+    <string name="btnlog">Login</string>
+    <string name="txt1">:first name</string>
+    <string name="txt2">:last name</string>
+    <string name="txt3">:father name</string>
+    <string name="txt4">:phone number</string>
+    <string name="txt5">:gender</string>
+    <string name="txt6">:Account type</string>
+    <string name="txt7">:interests</string>
+    <string name="txt11">Abolfazl</string>
+    <string name="txt22">Ghafari Reshad</string>
+    <string name="txt33">Reza</string>
+    <string name="txt44">09300749656</string>
+    <string name="txt55">Men</string>
+    <string name="txt56">Women</string>
+    <string name="txt66">Golden Account</string>
+    <string name="txt77">Interested in the Quran</string>
+    <string name="txt88">Interested in sports</string>
+    <string name="txt89">Interested in anthem</string>
+    <string name="txt90">Interested in poetry</string>
+    <string name="txtsing">Submit</string>
+    <string name="btnalertinput">Update information</string>
+
+    <string-array name="entries">
+        <item>Select the account type</item>
+        <item>Normal account</item>
+        <item>Bronze Account</item>
+        <item>Golden Account</item>
+    </string-array>
+
+</resources>
