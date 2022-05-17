@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">میان ترم-ابوالفضل غفاری رشاد</string>
+    <string name="checkbtn">قوانین را مطالعه و پذیرفته ام.</string>
+    <string name="txtgh">تست تست تستت \n   تست تست تست \n تست تست تست \n تستتست تست تست \n تست تست تست \n تست تست تستتست تست تست \n تست تست تست \n تست تست تستتست تست تست \n تست تست تست \n تست تست تستتست تست تست  تست تست تست تست تست تستتست تست تست  تست تست تست تست تست تستتست تست تست  تستست تست تست تست تست تست تست تستتست تست تست  تستست تست تست تست تست تست تست تستتست تست تست  تستست تست تستست تست تستتست</string>
+    <string name="btnlog">ورود به برنامه</string>
+    <string name="txt1">نام:</string>
+    <string name="txt2">نام خانوادگی:</string>
+    <string name="txt3">نام پدر:</string>
+    <string name="txt4">شماره موبایل:</string>
+    <string name="txt5">جنسیت:</string>
+    <string name="txt6">نوع حساب کاربری:</string>
+    <string name="txt7">علاقمندی ها:</string>
+    <string name="txt11">ابوالفضل</string>
+    <string name="txt22">غفاری رشاد</string>
+    <string name="txt33">رضا</string>
+    <string name="txt44">09300749656</string>
+    <string name="txt55">مرد</string>
+    <string name="txt56">زن</string>
+    <string name="txt66">حساب کاربری طلایی</string>
+    <string name="txt77">علاقمند به قرآن</string>
+    <string name="txt88">علاقمند به ورزش</string>
+    <string name="txt89">علاقمند به سرود</string>
+    <string name="txt90">علاقمند به شعر</string>
+    <string name="txtsing">ثبت</string>
+    <string name="btnalertinput">به روز رسانی اطلاعات</string>
+</resources>
+
